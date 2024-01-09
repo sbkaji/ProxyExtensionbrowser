@@ -1,0 +1,60 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ProxIn</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>ProxIn</h2>
+        <div id="loading">
+        </div>
+        <div id="auth">
+            <br>
+            <br>
+            <input type="text" name="authCode" id="authCode" placeholder="Enter Auth Code">
+            <br>
+            <br>
+            <button id="authButton">Login</button>
+            <br>
+            <br>
+            <label id="authLabel">Please enter the code provided. "trymyluck" code for 3 Day Trial </label>
+            <br>
+            <br>
+        </div>
+
+        <div id="buttonch">
+            <center>
+                <label class="switch">
+      <input type="checkbox" id='checkbox'>
+      <span class="slider"></span>
+    </label>
+                <br>
+                <br>
+                <div id="countryname">
+                    <label>Country: <span id="country"></span> </label><br>
+                    <label>Name: <span id="name"></span> </label><br>
+                    <label> Expire: <span id="expire"></span></label><br>
+                    <label> Days Left: <span id="left"></span></label><br>
+                </div>
+
+            </center>
+        </div>
+        <div id="footer">
+            <center>
+                <hr>
+                <label>Information Technology & Innovation Center</label>
+                <hr>
+            </center>
+        </div>
+    </div>
+
+    <script src="js/background.js"></script>
+</body>
+
+
+</html>
